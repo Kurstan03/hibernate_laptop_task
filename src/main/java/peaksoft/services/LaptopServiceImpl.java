@@ -35,12 +35,12 @@ public class LaptopServiceImpl implements LaptopService{
 
     @Override
     public List<Laptop> findAll() {
-        return null;
+        return repository.findAll();
     }
 
     @Override
     public Laptop update(Long id, Laptop laptop) {
-        return null;
+        return repository.update(id, laptop);
     }
 
     @Override
